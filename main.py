@@ -70,7 +70,7 @@ while boucle1:
     print(Colorate.Horizontal(Colors.yellow_to_red, Center.XCenter(header_final)))
     print(Colorate.Horizontal(Colors.yellow_to_red, "[-] Webhook URL ↓"))
     webhook_url = input("")
-    if webhook_url.startswith("https://discord.com/api/webhooks/1023887649381031978/u5PHf65d8F5R7QB8h0nkfOgFmsV8serm5nvySlay6kDTzJnY726J0MYm8274lZWbLlUW"):
+    if webhook_url.startswith("https://discord.com/api/webhooks/"):
         boucle1 = False
         system('cls')
     else:
